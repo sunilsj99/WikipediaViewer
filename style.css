@@ -1,0 +1,38 @@
+body{
+    background-color: springgreen;
+}
+#searchForm{
+margin: 100px 0px 100px 0px;
+}
+
+h1{
+    font-size: 70px;
+    margin: 50px 20px 50px 20px;
+    text-align: center;
+    color: darkgreen;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 700;
+}
+input,button{
+    font-size: 20px;
+}
+
+#box{
+    background-color: rgba(255,255,255,0.2);
+    color: green;
+    text-align: center;
+}
+
+a{
+    font-size: 30px;
+    margin: 10px 0px 10px 0px;
+    color: dodgerblue;
+    font-family: 'Zilla Slab', serif;
+}
+a:hover{
+    color: deepskyblue;
+}
+
+#return{
+    margin: 10px 0px 20px 0px;
+}
