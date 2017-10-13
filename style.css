@@ -1,38 +1,49 @@
 body{
-    background-color: springgreen;
+    background-color: #222233;
+    
 }
 #searchForm{
-margin: 100px 0px 100px 0px;
+    margin: 40px 0px 40px 0px;
 }
 
 h1{
-    font-size: 70px;
-    margin: 50px 20px 50px 20px;
+    font-size: 80px;
+    margin-top: 50px;
     text-align: center;
-    color: darkgreen;
+    color: #AACCFF;
     font-family: 'Zilla Slab', serif;
     font-weight: 700;
 }
+
+a{
+    color:#AACCFF;
+    font-size: 30px;
+    margin:10px;
+    font-family: 'Zilla Slab', serif;
+}
+
 input,button{
     font-size: 20px;
+    border-radius:8px;
 }
 
 #box{
+    
+    margin:20px;
+    padding: 10px 40px 10px 40px;
     background-color: rgba(255,255,255,0.2);
-    color: green;
+    color: white;
     text-align: center;
 }
 
-a{
-    font-size: 30px;
-    margin: 10px 0px 10px 0px;
-    color: dodgerblue;
-    font-family: 'Zilla Slab', serif;
-}
+
+
 a:hover{
-    color: deepskyblue;
+    color: #C5A8FF;
 }
+
 
 #return{
     margin: 10px 0px 20px 0px;
+    
 }
