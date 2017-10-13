@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wikipedia Viewer</title>
+	<!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <!-- <script  type="text/javascript" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="wiki.js" type="text/javascript"></script>
+</head>
+<body>
+    <h1>Wikipedia Viewer</h1>
+    <div id="particles-js" class="overlay">
+          <script src="jsparticles/particles.js"></script>
+          <script src="jsparticles/demo/js/app.js"></script></div>
+<div class="container">
+    
+    <div class="button_box2">
+    <form id="searchForm" class="form-wrapper-2 cf">
+    <input type="text" id="searchQuery" placeholder="Search here..." required>
+    <button id="submit" type="submit">Search</button>
+    </form>
+    </div>
+    <!-- <form id="searchForm" class="form-inline text-center">
+    <input type="text" id="searchQuery" placeholder="search your query">
+    <button class="btn btn-info" id="submit">Search</button>
+    </form> -->
+    <div id="return" class="text-center"><button class="btn btn-primary">return to search</button></div>
+    <div id="result"></div>
+</div>
+    <script>
+    $(document).ready( function() {
+        $('#result').hide();
+        $('#return').hide();
+       $('#submit').click( function() {
+           $('#searchForm').hide();
+           $('#return').fadeIn(3000);
+           $('#result').fadeIn(3000);
+       });
+    });
+    </script>
+     <script>
+    $(document).ready( function() {
+       $('#return').click( function() {
+           $('#result').hide();
+           $('#searchForm').fadeIn(3000);
+           $('#return').hide();
+           
+       });
+    });
+    </script>
+</body>
+</html>
