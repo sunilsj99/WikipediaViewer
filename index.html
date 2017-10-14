@@ -13,8 +13,10 @@
     <h1>Wikipedia Viewer</h1>
 <div class="container">
     <form id="searchForm" class="form-inline text-center">
-    <input type="text" id="searchQuery" placeholder="search your query">
-    <button class="btn btn-info" id="submit">Search</button>
+        <div class="display-flex align-items-stretch justify-content-center">
+            <input class="padding-1 margin-right-half" type="text" id="searchQuery" placeholder="search your query">
+            <button class="btn btn-info" id="submit">Search</button>
+        </div>
     </form>
     <div id="return" class="text-center"><button class="btn btn-primary">return to search</button></div>
     <div id="result"></div>

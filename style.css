@@ -36,3 +36,23 @@ a:hover{
 #return{
     margin: 10px 0px 20px 0px;
 }
+
+.display-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-stretch {
+    align-items: stretch;
+}
+
+.padding-1 {
+    padding: 1rem;
+}
+
+.margin-right-half {
+    margin-right: 0.5rem;
+}
