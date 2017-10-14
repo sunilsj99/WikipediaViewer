@@ -1,38 +1,49 @@
-body{
+body {
     background-color: springgreen;
 }
-#searchForm{
-margin: 100px 0px 100px 0px;
+
+#searchForm {
+    margin: 100px 0;
 }
 
-h1{
-    font-size: 70px;
-    margin: 50px 20px 50px 20px;
+h1 {
+    font-size: 6em;
+    margin-bottom: 50px;
     text-align: center;
     color: darkgreen;
     font-family: 'Zilla Slab', serif;
     font-weight: 700;
 }
-input,button{
+
+input, button {
     font-size: 20px;
 }
 
-#box{
-    background-color: rgba(255,255,255,0.2);
+#box {
+    background-color: rgba(255, 255, 255, 0.2);
     color: green;
     text-align: center;
 }
 
-a{
+a {
     font-size: 30px;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0;
     color: dodgerblue;
     font-family: 'Zilla Slab', serif;
 }
-a:hover{
+
+a:hover {
     color: deepskyblue;
 }
 
-#return{
-    margin: 10px 0px 20px 0px;
+#return {
+    margin: 10px 0 20px 0;
+}
+
+.page {
+    background: forestgreen;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 20px;
 }
