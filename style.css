@@ -1,21 +1,79 @@
-body{
-    background-color: #D0D0D0;
-}
-
-#searchForm{
-margin: 100px 0px 100px 0px;
-}
-
-h1{
-    font-size: 70px;
-    margin: 50px 20px 50px 20px;
+body {
+    background-color: #C8E6C9;
+    margin: 0;
     text-align: center;
-    color: darkgreen;
-    font-family: 'Zilla Slab', serif;
-    font-weight: 700;
 }
 
-input,button{
+.page {
+    background-color: white;
+    width: 60%;
+    padding: 20px 0px 20px 0px;
+    margin: 20px auto;   
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#searchForm {
+    margin: 0px 0px 50px 0px
+}
+
+.jumbotron {
+    background-color: #E0E0E0;
+    margin: 20px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 5px 5px 2px #888888;
+    color: black;
+    border: 0px solid;
+    border-radius: 100px;
+}
+
+.box-title > a:link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Fjalla One', sans-serif;
+} 
+
+.box-title > a:visited {
+    text-decoration:  none;
+    font-weight:      bold;
+    background-color: #ddd;
+    color:            black;
+} 
+
+.box-title > a:hover {
+    text-decoration:  none;
+    font-weight:      bold;
+    color:            black;
+} 
+
+.box-title {
+    text-align: left;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+
+.box-description {
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+}
+
+.container {
+    width: 80%;
+}
+
+.main-title {
+    font-size: 70px;
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+    color: #455A64;
+    font-family: 'Zilla Slab', serif;
+    line-height: 60px;
+}
+
+input, button{
     font-size: 20px;
 }
 
@@ -41,24 +99,19 @@ input,button{
   border-color: green;
 }
 
-#box{
-    background-color: rgba(255,255,255,0.2);
-    color: green;
-    text-align: center;
-}
-
-a{
+a {
     font-size: 30px;
     margin: 10px 0px 10px 0px;
     color: dodgerblue;
     font-family: 'Zilla Slab', serif;
 }
-a:hover{
+a:hover {
     color: deepskyblue;
 }
 
 #return{
     margin: 10px 0px 20px 0px;
+    text-align: right;
 }
 
 .display-flex {
